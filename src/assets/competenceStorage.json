@@ -1,0 +1,42 @@
+{
+  "javascript": {
+    "tag": "JavaScript",
+    "imageURL": "https://lh3.google.com/u/0/d/1g4OoBrGrY_rb59KhTDo4T2Is-gQ7NHbn=w2180-h1280-iv1"
+  },
+  "vue": {
+    "tag": "Vue",
+    "imageURL": "https://lh3.google.com/u/0/d/1S21b-ZXogwWDyzMSDa8G5NN2OxqKIxxV=w1420-h1248-iv1"
+  },
+  "github": {
+    "tag": "Github",
+    "imageURL": "https://lh3.google.com/u/0/d/1qtn1JzsmqzMDf-1kQCdOnyS2yZhTuoJ6=w1070-h1280-iv1"
+  },
+  "Agil systemutveckling": {
+    "tag": "Agil systemutveckling",
+    "imageURL": "https://lh3.google.com/u/0/d/1X-vPFXtXgTLUCrUx_ulkpXoGYgD9OvvZ=w1420-h1248-iv1"
+  },
+  "firebase": {
+    "tag": "Firebase",
+    "imageURL": "https://lh3.google.com/u/0/d/1zq-8LZnRZDlsUhYbE-Sg57q2RsRK_LjW=w1070-h1280-iv1"
+  },
+  "html": {
+    "tag": "HTML",
+    "imageURL": "https://lh3.google.com/u/0/d/1NvIxqZYH4RH4ZqpwCSj5Gnt2xzvnd9A3=w1420-h1248-iv1"
+  },
+  "css&scss": {
+    "tag": "CSS & SCSS",
+    "imageURL": "https://lh3.google.com/u/0/d/1eih70TNImiXptfLNYgYtgrUvLAbYRBNt=w1420-h1248-iv1"
+  },
+  "sqlite": {
+    "tag": "SQLite",
+    "imageURL": "https://lh3.google.com/u/0/d/1r7wYY5vOd05Z_o-il7oH136YCQA7_Td8=w1420-h1248-iv1"
+  },
+  "TailwindCSS": {
+    "tag": "TailwindCSS",
+    "imageURL": "https://lh3.google.com/u/0/d/1xZx99sROhd01meaaxftJ0J3YGCjpUa-_=w1420-h1248-iv1"
+  },
+  "Ruby": {
+    "tag": "Ruby",
+    "imageURL": "https://lh3.google.com/u/0/d/17NqQPZiX7VRVOmosuE73tGqAuWQjD4KG=w1420-h1248-iv1"
+  }
+}
