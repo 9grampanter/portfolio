@@ -1,4 +1,4 @@
-# vue-tailwind-template
+# vue-portfolio
 
 ## Project setup
 ```
