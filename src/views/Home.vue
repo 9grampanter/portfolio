@@ -43,7 +43,7 @@
           <div class="bg-white flex flex-col simple-box-shadow p-4 w-11/12 mx-auto mt-8 rounded-lg">
             <div class="flex justify-between">
               <div class="flex flex-col">
-                <p>Se på några av mina <a class="text-blue-700" href="/projects">projekt <span>här!</span></a></p>
+                <p>Se på några av mina <router-link class="text-blue-700" to="/projects">projekt <span>här!</span></router-link></p>
                 <p class="mt-4">Eller skrolla vidare för att lära dig mer om mig!</p>
               </div>
               <img class="hidden sm:block sm:w-48 md:w-64" src="../assets/person.svg" alt="">

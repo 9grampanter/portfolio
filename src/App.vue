@@ -47,9 +47,9 @@
 
       </div>
       <h1 class="text-xl mt-8 text-center">Ett portfolio om och av Alexander Kjellberg</h1>
-      <a href="/credits">
+      <router-link to="/credits">
         <h1 class="text-sm mt-4">Lista över medvärkare</h1>
-      </a>
+      </router-link>
     </footer>
   </div>
 </template>
