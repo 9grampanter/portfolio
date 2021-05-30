@@ -1,7 +1,8 @@
 <template>
-  <div class="itemSection">
-    <h2>{{itemContent.imageText}}</h2>
-    <div class="bg-blue-500 w-64 mt-2 flex flex-col itemframe">
+  <div class="itemSection mb-12 md:mb-0">
+    <a :href="itemContent.link">
+    <h2 class="text-lg">{{itemContent.title}}</h2>
+    <div class="bg-white w-64 mt-2 flex flex-col itemframe">
       
       <div class="w-full h-20 itemframe-top">
         <img :src="itemContent.imageURL" class="h-full w-full rounded-t-lg object-cover" :alt="itemContent.imageURL">
@@ -9,12 +10,11 @@
 
       <div class="w-full min-h-full h-48 itemframe-bot">
         <div class="overflow-y-scroll">
-          <p class="p-4">{{ itemContent.breadText }}</p>
-
+          <p class="p-4 text-sm">{{ itemContent.breadText }}</p>
         </div>
       </div>
     </div>
-
+    </a>
   </div>
 </template>
 
@@ -41,21 +41,12 @@ export default {
   }
   .itemSection:nth-child(even) {
     margin-top: 10rem;
-  //   .myMidLine {
-  //     background: red;
-  //     position: absolute;
-  //     left:50%;
-  //     top: 10%;
-	// 		transform: translate(-50%, -50%) rotate(90deg);
-  //   }
   }
-  // .itemSection:nth-child(odd) {
-  //   .myMidLine {
-  //     position: absolute;
-  //     left:50%;
-	// 		transform: translate(-50%, -50%) rotate(90deg);
-  //     background: blue;
-  //   }
-  // }
+  
+  @media (max-width: 768px) { 
+    .itemSection:nth-child(even) {
+      margin-top: 0;
+    }
+  }
 
 </style>

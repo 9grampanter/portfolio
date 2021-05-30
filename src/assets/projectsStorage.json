@@ -1,22 +1,20 @@
 {
   "idTWYUWYTWUY": {
-    "imageURL": "https://lh3.google.com/u/0/d/168yYo5oNs_iGefeM1Zv7kqOz40tRqqDt=w2848-h1526-iv1",
-    "imageText": "Cool image text",
-    "breadText": "Lite cool text som förklarar något kanske?"
+    "imageURL": "https://lh3.google.com/u/0/d/1w-4eO7uNB-En529AarQ88oKHzjc8hV8o=w1224-h1320-iv1",
+    "title": "vue-firebase-crud",
+    "link": "https://github.com/te4-alexander-kjellberg1/vue-firebase-crud",
+    "breadText": "Detta projekt är gjort med VueJS som frontend ramverk och Firebase för backend. Syftet var att lära mig använda Firebase och de flesta av deras tjänster"
   },
   "idUUDNDNDN": {
-    "imageURL": "anotherone.jpg",
-    "imageText": "kass image text",
-    "breadText": "TESORDSAMOS kkkkkkk kanske?"
+    "imageURL": "https://lh3.google.com/u/0/d/1egDoxT3XuqlyK4noo_f_FqrwfEVIP5gy=w1224-h1320-iv1",
+    "title": "FizzBuzz",
+    "link": "https://github.com/9grampanter/FizzBuzz",
+    "breadText": "FizzBuzz utmaningen, gjord mest för att se om man kunde klara det"
   },
   "idmmmIIUUDJ": {
-    "imageURL": "anotherone.jpg",
-    "imageText": "sadasd text",
-    "breadText": "TESORiunjbhubykk kanske?"
-  },
-  "idTVBYNUIMYV": {
-    "imageURL": "waterfall.jpg",
-    "imageText": "Cool image text2",
-    "breadText": "Lite cool text som förklarar något ANNAT kanske?"
+    "imageURL": "https://lh3.google.com/u/0/d/1DBIjwfzLZj03bGCtHJgvg-rvgY7OBcK9=w1224-h1320-iv1",
+    "title": "JS 3D effect",
+    "link": "https://codepen.io/9grampanter/pen/Vwprwyz",
+    "breadText": "Frän 3D effekt gjord med Javascript, HTML och CSS"
   }
 }

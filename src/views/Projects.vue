@@ -1,7 +1,7 @@
 <template>
-  <div class="ml-24 contentWidth flex relative justify-around mt-10">
+  <main class="md:ml-24 contentWidth flex justify-around mt-10">
 
-    <div class="itemFrameSpace flex max-w-46 flex-wrap justify-between">
+    <div class="itemFrameSpace w-64 md:w-auto flex max-w-46 flex-wrap justify-between">
       <ItemFrame
         v-for="(itemContent, idx) in dbAsArray"
         :key="idx"
@@ -10,7 +10,7 @@
 
     </div>
   
-  </div>
+  </main>
 </template>
 
 <script>

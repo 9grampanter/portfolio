@@ -1,5 +1,5 @@
 <template>
-  <div class="md:ml-24 contentWidth flex justify-center">
+  <main class="md:ml-24 contentWidth flex justify-center">
     <!-- <div>NOTE: Lägg till engelska översättning, det kan bli snyggt!</div> -->
     <div class="overflow-y-scroll h-screen y-mandatory">
       <div id="slide-container">
@@ -7,7 +7,7 @@
         <div class="slide w-11/12 md:flex md:flex-col md:justify-center md:w-4/5 2xl:w-3/5 mx-auto h-screen">
           <div id="marginFiller" class="h-4 sm:h-8"></div>
 
-          <div class="flex simple-box-shadow p-4 flex-col w-11/12 mx-auto rounded-lg">
+          <div class="bg-white flex simple-box-shadow p-4 flex-col w-11/12 mx-auto rounded-lg">
             <div class="flex flex-col items-center sm:flex-row justify-center md:justify-start">
               <div class="rounded-full w-24 h-24 flex simple-box-shadow">
                 <img class="rounded-full" :src="infoText.profileURL" alt="">
@@ -40,7 +40,7 @@
             </div>
           </div>
 
-          <div class="flex flex-col simple-box-shadow p-4 w-11/12 mx-auto mt-8 rounded-lg">
+          <div class="bg-white flex flex-col simple-box-shadow p-4 w-11/12 mx-auto mt-8 rounded-lg">
             <div class="flex justify-between">
               <div class="flex flex-col">
                 <p>Se på några av mina <a class="text-blue-700" href="/projects">projekt <span>här!</span></a></p>
@@ -58,7 +58,7 @@
         <div class="slide w-11/12 md:w-4/5 2xl:w-3/5 mx-auto h-screen">
           <div id="marginFiller" class="h-4 sm:h-8"></div>
 
-          <div class="flex simple-box-shadow p-4 flex-col w-11/12 xl:w-8/12 mx-auto rounded-lg">
+          <div class="bg-white flex simple-box-shadow p-4 flex-col w-11/12 xl:w-8/12 mx-auto rounded-lg">
             <p class="text-xl ml-4">Kompetenser</p>
             <div class="ml-4 bg-black h-0.5 w-40"></div>
             <div class="m-1 ml-4 mr-0 bg-black h-0.5 w-24"></div>
@@ -82,14 +82,14 @@
           </div>
 
           <div class="flex w-11/12 mx-auto mt-12 justify-around overflow-x-scroll sm:overflow-visible py-8 sm:p-0">        
-            <div class="rounded-lg simple-box-shadow p-4 relative min-w-64 ml-80 sm:m-0">
+            <div class="bg-white rounded-lg simple-box-shadow p-4 relative min-w-64 ml-80 sm:m-0">
               <h1 class="text-xl absolute -top-8">Utbildningar</h1>
               <h1 class="text-xl">Teknik - Informations- och Medieteknik</h1>
               <h3 class="text-sm md:text-base">NTI Johanneberg || Göteborg, Johanneberg</h3>
               <h3 class="text-sm">08/2017 - 06/2020</h3>
             </div>
 
-            <div class="rounded-lg simple-box-shadow p-4 min-w-64 ml-4">
+            <div class="bg-white rounded-lg simple-box-shadow p-4 min-w-64 ml-4">
               <h1 class="text-xl">Gymnasieingenjör</h1>
               <h3 class="text-sm md:text-base">NTI Johanneberg || Göteborg, Johanneberg</h3>
               <h3 class="text-sm">08/2020 - 06/2021</h3>
@@ -100,7 +100,7 @@
         <!-- <div class="slide w-11/12 md:w-4/5 2xl:w-3/5 mx-auto h-screen">EXTRA SLIDE</div> -->
       </div>
     </div>
-  </div>
+  </main>
 </template>
 
 <script>
