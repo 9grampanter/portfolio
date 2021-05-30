@@ -6,6 +6,7 @@
       <a href="https://icons8.com/icon/106564/github">GitHub icon by Icons8</a>
       <a href="https://icons8.com/icon/YRRhCXfA0Vd0/mail">Mail icon by Icons8</a>
       <a href="https://icons8.com/icon/3861/twitter">Twitter icon by Icons8</a>
+      <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     </h1>
   </div>
 </template>

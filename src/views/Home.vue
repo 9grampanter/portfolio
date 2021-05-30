@@ -64,7 +64,7 @@
             <div class="m-1 ml-4 mr-0 bg-black h-0.5 w-24"></div>
             <div class="ml-4 bg-black h-0.5 w-8"></div>
             <div class="pt-8 h-72 w-full md:pt-2 md:h-96">
-              <swiper class="swiper" :options="swiperOption">
+              <swiper class="swiper" :navigation="true" :options="swiperOption">
                 <swiper-slide 
                   v-for="(competence, idx) in competenceObjects" 
                   :key="idx" 
