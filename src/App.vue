@@ -22,7 +22,7 @@
 
     <router-view/>
     
-    <footer v-if="$route.path!='/'" class="text-white flex items-center flex-col md:ml-24 w-full mt-20 md:w-auto bg-gray-700">
+    <footer v-if="$route.path!='/'" class="py-4 text-white flex items-center flex-col md:ml-24 w-full mt-20 md:w-auto bg-gray-700">
       <div>
         <a href="https://github.com/9grampanter" class="flex items-center">
           <img class="h-6 w-6" src="https://img.icons8.com/material-sharp/24/000000/github.png"/>
