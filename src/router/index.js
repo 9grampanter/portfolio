@@ -52,14 +52,23 @@ router.beforeEach(async(to, from, next) => {
     let user = true
     if (user) {
       next();
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+      }, 100);
     } else {
       alert('You must be logged in to see this page');
       next({
         path: '/signinpage',
       });
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+      }, 100);
     }
   } else {
     next()
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 100);
   }
 })
 export default router

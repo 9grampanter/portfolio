@@ -152,7 +152,7 @@ export default {
     competenceObjects() {
       return this.competenceJson
     }
-  }
+  },
 }
 </script>
 
