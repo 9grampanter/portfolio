@@ -5,6 +5,7 @@ import Home from '../views/Home.vue'
 import Projects from '../views/Projects.vue'
 import ContactPage from '../views/ContactPage.vue'
 import Credits from '../views/Credits.vue'
+import NotFound from '../views/NotFound.vue';
 
 Vue.use(VueRouter)
 
@@ -28,6 +29,11 @@ const routes = [
     path: '/credits',
     name: 'Credits',
     component: Credits
+  },
+  {
+    path: '*',
+    name: 'Not Found',
+    component: NotFound
   }
 ]
 

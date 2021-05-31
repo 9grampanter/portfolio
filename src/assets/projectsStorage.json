@@ -11,6 +11,12 @@
     "link": "https://github.com/9grampanter/FizzBuzz",
     "breadText": "FizzBuzz utmaningen, gjord mest för att se om man kunde klara det"
   },
+  "idNNNUSDIIDD": {
+    "imageURL": "https://lh3.google.com/u/0/d/1ANxMdXuqGQx9Y9gaW1_T903CdcqDzQGz=w1732-h1262-iv1",
+    "title": "Hypocampus Dashboard",
+    "link": "https://www.hypocampus.se/dashboard/",
+    "breadText": "En Dashboard sida för Hypocampus.se gjord i VueJS"
+  },
   "idmmmIIUUDJ": {
     "imageURL": "https://lh3.google.com/u/0/d/1DBIjwfzLZj03bGCtHJgvg-rvgY7OBcK9=w1224-h1320-iv1",
     "title": "JS 3D effect",

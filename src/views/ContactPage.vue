@@ -25,7 +25,7 @@
           <textarea v-model="message" class="focus:outline-none resize-none pl-2 py-0.5 border rounded simple-box-shadow border-none" name="message" rows="6" cols="30"></textarea>
 
           <div class="justify-center flex w-full mt-8">
-            <button type="submit" id="mySubmitBTN" class="focus:outline-none py-1 px-4 border rounded-full simple-box-shadow border-none">Skicka</button>
+            <button type="submit" id="mySubmitBTN" class="focus:outline-none transform duration-500 py-1 px-4 border rounded-full simple-box-shadow border-none">Skicka</button>
           </div>
         
         </div>
