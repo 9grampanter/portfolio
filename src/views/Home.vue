@@ -43,7 +43,7 @@
           <div class="bg-white flex flex-col simple-box-shadow p-4 w-11/12 mx-auto mt-8 rounded-lg">
             <div class="flex justify-between">
               <div class="flex flex-col">
-                <p>Se på några av mina <router-link class="text-blue-700" to="/projects">projekt <span>här!</span></router-link></p>
+                <p>Se på några av mina <router-link to="/projects">projekt <span class="text-blue-700">här!</span></router-link></p>
                 <p class="mt-4">Eller skrolla vidare för att lära dig mer om mig!</p>
               </div>
               <img class="hidden sm:block sm:w-48 md:w-64" src="../assets/person.svg" alt="">
@@ -157,6 +157,9 @@ export default {
 </script>
 
 <style lang="scss">
+  .vue-typer .custom.char.selected {
+    background-color: #FCE205;
+  }
   .slide {
     scroll-snap-align: start;
     scroll-snap-stop: normal;
