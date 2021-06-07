@@ -55,8 +55,11 @@
 </template>
 
 <style lang="scss">
-$mainBG: rgb(126, 92, 92);
 $simpleBoxShadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+::selection {
+  background: #FCE205;
+}
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
