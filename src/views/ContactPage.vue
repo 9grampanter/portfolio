@@ -1,5 +1,5 @@
 <template>
-  <main class="md:ml-24 contentWidth flex flex-col mt-10">
+  <main class="md:ml-24 contentWidth md:min-h-screen70vh flex flex-col justify-center mt-10">
     <div class="bg-white flex simple-box-shadow p-4 flex-col w-3/5 mx-auto rounded-lg xl:w-1/3 mx:mx-auto">
       <h1 class="text-xl">Få kontakt med mig!</h1>
       <form class="mt-6" @submit.prevent="sendEmail">

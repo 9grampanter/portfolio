@@ -1,10 +1,10 @@
 <template>
-  <main class="md:ml-24 contentWidth flex justify-center">
+  <main id="MainHome" class="md:ml-24 contentWidth flex justify-center">
     <!-- <div>NOTE: Lägg till engelska översättning, det kan bli snyggt!</div> -->
     <div class="overflow-y-scroll h-screen y-mandatory">
       <div id="slide-container">
 
-        <div class="slide w-11/12 md:flex md:flex-col md:justify-center md:w-4/5 2xl:w-3/5 mx-auto h-screen">
+        <section class="slide w-11/12 mx-auto h-screen md:w-4/5 2xl:w-3/5 md:flex md:flex-col md:justify-center">
           <div id="marginFiller" class="h-4 sm:h-8"></div>
 
           <div class="bg-white flex simple-box-shadow p-4 flex-col w-11/12 mx-auto rounded-lg">
@@ -36,7 +36,7 @@
                 :erase-on-complete='false'
                 caret-animation='blink'
               ></vue-typer>
-              <p class="overflow-y-scroll max-h-24 sm:max-h-content mt-3">{{ infoText.aboutText }}</p>
+              <p class="cooler-scroll overflow-y-scroll max-h-24 sm:max-h-content mt-3">{{ infoText.aboutText }}</p>
             </div>
           </div>
 
@@ -49,13 +49,14 @@
               <img class="hidden sm:block sm:w-48 md:w-64" src="../assets/person.svg" alt="">
             </div>
 
-            <div class="mt-4 sm:mt-0 ml-3">
-              <img id="arrow" class="h-8 transform rotate-90" src="../assets/simpleArrow.svg" alt="">
+            <div class="relative mt-4 sm:mt-0 ml-3">
+              <a class="absolute h-8 w-8 z-10 cursor-default" href="#slide2"></a>
+                <img id="arrow" class="h-8 transform rotate-90" src="../assets/simpleArrow.svg" alt="">
             </div>
           </div>
-        </div>
+        </section>
 
-        <div class="slide w-11/12 md:w-4/5 2xl:w-3/5 mx-auto h-screen">
+        <section id="slide2" class="slide w-11/12 mx-auto h-screen md:w-4/5 2xl:w-3/5 md:flex md:flex-col md:justify-center">
           <div id="marginFiller" class="h-4 sm:h-8"></div>
 
           <div class="bg-white flex simple-box-shadow p-4 flex-col w-11/12 xl:w-8/12 mx-auto rounded-lg">
@@ -95,7 +96,7 @@
               <h3 class="text-sm">08/2020 - 06/2021</h3>
             </div>
           </div>
-        </div>
+        </section>
 
         <!-- <div class="slide w-11/12 md:w-4/5 2xl:w-3/5 mx-auto h-screen">EXTRA SLIDE</div> -->
       </div>
@@ -111,7 +112,10 @@ import 'swiper/css/swiper.css'
 import infoStorage from '../assets/aboutStorage.json'
 import competenceStorage from '../assets/competenceStorage.json'
 
+import noScrollMixin from '@/mixins/noScrollMixin'
+
 export default {
+  mixins: [ noScrollMixin ],
   components: {
     VueTyper,
     Swiper,
@@ -160,6 +164,18 @@ export default {
   .vue-typer .custom.char.selected {
     background-color: #FCE205;
   }
+
+  .cooler-scroll::-webkit-scrollbar {
+    width: 0.5em;
+  }
+
+  .cooler-scroll::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(143, 143, 143, 0.3);
+  }
+  .cooler-scroll::-webkit-scrollbar-thumb  {  
+    background-color: #FCE205;
+  }
+
   .slide {
     scroll-snap-align: start;
     scroll-snap-stop: normal;
@@ -190,4 +206,12 @@ export default {
       }
     }
   }
+
+  @media (min-width: 640px) { 
+    .cooler-scroll::-webkit-scrollbar {
+      width: 0;
+    }
+  }
+
+
 </style>

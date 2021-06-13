@@ -56,6 +56,13 @@
 
 <style lang="scss">
 $simpleBoxShadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+$mainYellow: #FCE205;
+
+body.no-scroll {
+  margin: 0; 
+  height: 100%; 
+  overflow: hidden
+}
 
 ::selection {
   background: #FCE205;
@@ -73,6 +80,16 @@ nav {
 
 .simple-box-shadow {
   box-shadow: $simpleBoxShadow;
+}
+
+.contentWidth {
+  width: 100%;
+}
+
+@media (min-width: 768px) { 
+  .contentWidth {
+    width: calc(100vw - 6rem);
+  } 
 }
 
 footer {

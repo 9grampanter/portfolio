@@ -1,5 +1,5 @@
 <template>
-  <main class="md:ml-24 contentWidth flex justify-around mt-10">
+  <main class="md:ml-24 px-8 flex justify-center mt-10">
 
     <div class="itemFrameSpace w-64 md:w-auto flex max-w-46 flex-wrap justify-between">
       <ItemFrame
@@ -38,16 +38,3 @@ export default {
 
 }
 </script>
-
-<style lang="scss">
-  .contentWidth {
-    width: 100%;
-  }
-
-  @media (min-width: 768px) { 
-    .contentWidth {
-      width: calc(100vw - 6rem);
-    }
-    
-  }
-</style>

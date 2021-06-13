@@ -9,7 +9,7 @@
       </div>
 
       <div class="w-full min-h-full h-48 itemframe-bot">
-        <div class="overflow-y-scroll">
+        <div class="overflow-y-scroll remove-scroll-look">
           <p class="p-4 text-sm">{{ itemContent.breadText }}</p>
         </div>
       </div>
@@ -25,6 +25,10 @@ export default {
 </script>
 
 <style lang="scss">
+  .remove-scroll-look::-webkit-scrollbar {
+    width: 0.5em;
+  }
+
   .itemframe {
     border-radius: 12px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
