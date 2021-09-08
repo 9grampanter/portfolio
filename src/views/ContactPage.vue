@@ -1,36 +1,30 @@
 <template>
   <main class="md:ml-24 contentWidth md:min-h-screen70vh flex flex-col justify-center mt-10">
-    <div class="bg-white flex simple-box-shadow p-4 flex-col w-3/5 mx-auto rounded-lg xl:w-1/3 mx:mx-auto">
-      <h1 class="text-xl">Få kontakt med mig!</h1>
-      <form class="mt-6" @submit.prevent="sendEmail">
-        <div class="w-full flex flex-col justify-between">
+    <div class="bg-white flex flex-col simple-box-shadow w-3/5 mx-auto rounded-lg p-4 xl:w-1/3 mx:mx-auto">
+     
+        <h1 class="text-xl font-bold">Få kontakt med mig!</h1>
+        <form class="mt-6" @submit.prevent="sendEmail">
+          <div class="w-full flex flex-col justify-between">
 
-          <div class="flex flex-row justify-between mb-10">
-            <div class="flex flex-col w-5/12">
-              <label for="from_name">Namn</label>
-              <input v-model="from_name" type="text" name="from_name" placeholder="John Doe" class="simple-box-shadow border-none focus:outline-none pl-2 py-0.5 border rounded-lg">
+            <label for="from_name">Namn</label>
+            <input v-model="from_name" type="text" name="from_name" class="mb-6 focus:outline-none pl-2 py-0.5 border rounded-md h-12">
+          
+            <label for="email">Email</label>
+            <input v-model="email" type="text" name="email" class="mb-16 focus:outline-none pl-2 py-0.5 border rounded-md h-12">
+
+            <label for="subject">Ämne</label>
+            <input v-model="subject" type="text" name="subject" class="mb-6 focus:outline-none pl-2 py-0.5 border rounded-md h-12">
+
+            <label for="message">Meddelande</label>
+            <textarea v-model="message" class="resize-y focus:outline-none pl-2 py-0.5 border rounded-md" name="message" rows="4" cols="30"></textarea>
+
+            <div class="justify-center flex w-full mt-8">
+              <button type="submit" id="mySubmitBTN" class="w-full focus:outline-none transform duration-500 py-1 px-4 rounded-md border-none h-12">Skicka</button>
             </div>
-              
-            <div class="flex flex-col w-5/12">
-              <label for="email">Email</label>
-              <input v-model="email" type="text" name="email" placeholder="example@mail.com" class="focus:outline-none pl-2 py-0.5 border rounded-lg simple-box-shadow border-none">
-            </div>
-
+          
           </div>
-
-          <label for="subject">Ämne</label>
-          <input v-model="subject" type="text" name="subject" class="focus:outline-none pl-2 py-0.5 border rounded simple-box-shadow border-none mb-4">
-
-          <label for="message">Meddelande</label>
-          <textarea v-model="message" class="focus:outline-none resize-none pl-2 py-0.5 border rounded simple-box-shadow border-none" name="message" rows="6" cols="30"></textarea>
-
-          <div class="justify-center flex w-full mt-8">
-            <button type="submit" id="mySubmitBTN" class="focus:outline-none transform duration-500 py-1 px-4 border rounded-full simple-box-shadow border-none">Skicka</button>
-          </div>
-        
-        </div>
-      </form>
-    </div>
+        </form>
+      </div>
   </main>
 </template>
 
@@ -90,6 +84,10 @@ export default {
 </script>
 
 <style>
+  .sideContainer {
+    background: #FCE205;
+    word-spacing: 0.4rem;
+  }
   #mySubmitBTN {
     background: #ab9a03;
     color: rgb(228, 228, 228);
